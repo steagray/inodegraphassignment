@@ -1,0 +1,4 @@
+Author: Steven Gray
+
+"gcc inode.c" will generate the proper code.
+From there, it must be called with a location. Anything after the first location inputted will be ignored.
