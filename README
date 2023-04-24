@@ -1,4 +1,5 @@
 Author: Steven Gray
 
-"gcc inode.c" will generate the proper code.
+"gcc inode.c" will generate the executable.
 From there, it must be called with a location. Anything after the first location inputted will be ignored.
+The C program will create a file called graph, this is the graphviz file that can be generated via the command "dot -Tpdf graph -o [output file name]".
